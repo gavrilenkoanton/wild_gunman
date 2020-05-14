@@ -5,6 +5,7 @@
     height: 100vh;
     background-color: black;
     flex-direction: column;
+    position: relative;
 }
 
 .saloon {
@@ -13,9 +14,25 @@
     width: 820px;
     background-size: cover;
     position: relative;
+    z-index: 4;
 }
-.dead{
+
+.dead {
     opacity: 0.5;
+}
+
+.youLost {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 80px;
+    color: red;
+    z-index: 5;
 }
 
 .doorShooter {
@@ -27,6 +44,7 @@
     top: 262px;
     left: 347px;
 }
+
 .doorShooterDead {
     background: url("img/door_shooter_dead.png");
     height: 199px;
@@ -36,10 +54,22 @@
     top: 262px;
     left: 347px;
 }
-.doorShooterDisplayNone{
+
+.doorShooterShot {
+    background: url("img/door_shooter_shot.png");
+    height: 199px;
+    width: 125px;
+    background-size: cover;
+    position: absolute;
+    top: 260px;
+    left: 346px;
+}
+
+.doorShooterDisplayNone {
     display: none;
 }
-.leftTopShooter{
+
+.leftTopShooter {
     background: url("./img/left_top_shooter.png");
     height: 139px;
     width: 209px;
@@ -48,7 +78,28 @@
     top: 37px;
     left: 78px;
 }
-.leftBottomShooter{
+
+.leftTopShooterDead {
+    background: url("./img/left_top_shooter_dead.png");
+    height: 139px;
+    width: 209px;
+    background-size: cover;
+    position: absolute;
+    top: 37px;
+    left: 78px;
+}
+
+.leftTopShooterShot {
+    background: url("./img/left_top_shooter_shot.png");
+    height: 139px;
+    width: 209px;
+    background-size: cover;
+    position: absolute;
+    top: 37px;
+    left: 78px;
+}
+
+.leftBottomShooter {
     background: url("./img/left_bottom_shooter.png");
     height: 166px;
     width: 225px;
@@ -57,7 +108,28 @@
     top: 258px;
     left: 52px;
 }
-.rightTopShooter{
+
+.leftBottomShooterDead {
+    background: url("./img/left_bottom_shooter_dead.png");
+    height: 166px;
+    width: 225px;
+    background-size: cover;
+    position: absolute;
+    top: 258px;
+    left: 52px;
+}
+
+.leftBottomShooterShot {
+    background: url("./img/left_bottom_shooter_shot.png");
+    height: 166px;
+    width: 225px;
+    background-size: cover;
+    position: absolute;
+    top: 258px;
+    left: 52px;
+}
+
+.rightTopShooter {
     background: url("./img/right_top_shooter.png");
     height: 135px;
     width: 232px;
@@ -66,7 +138,28 @@
     top: 41px;
     left: 516px;
 }
-.rightBottomShooter{
+
+.rightTopShooterDead {
+    background: url("./img/right_top_shooter_dead.png");
+    height: 135px;
+    width: 232px;
+    background-size: cover;
+    position: absolute;
+    top: 41px;
+    left: 516px;
+}
+
+.rightTopShooterShot {
+    background: url("./img/right_top_shooter_shot.png");
+    height: 135px;
+    width: 232px;
+    background-size: cover;
+    position: absolute;
+    top: 41px;
+    left: 516px;
+}
+
+.rightBottomShooter {
     background: url("./img/right_bottom_shooter.png");
     height: 170px;
     width: 230px;
@@ -76,13 +169,34 @@
     left: 541px;
 }
 
-.score{
+.rightBottomShooterDead {
+    background: url("./img/right_bottom_shooter_dead.png");
+    height: 170px;
+    width: 230px;
+    background-size: cover;
+    position: absolute;
+    top: 261px;
+    left: 541px;
+}
+
+.rightBottomShooterShot {
+    background: url("./img/right_bottom_shooter_shot.png");
+    height: 170px;
+    width: 230px;
+    background-size: cover;
+    position: absolute;
+    top: 261px;
+    left: 541px;
+}
+
+.score {
     position: absolute;
     top: 199px;
     left: 373px;
     font-size: 20px;
 }
-.lifes{
+
+.lifes {
     font-size: 20px;
     color: white;
 }
