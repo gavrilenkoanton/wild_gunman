@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wild_gunman/precache-manifest.cb27c19dffff054f04ecc2a9b0d56976.js"
+  "/wild_gunman/precache-manifest.b3916d1d450c2fefb3744795300839ba.js"
 );
 
 self.addEventListener('message', (event) => {

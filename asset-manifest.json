@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/wild_gunman/static/css/main.fddce15f.chunk.css",
-    "main.js": "/wild_gunman/static/js/main.e2af99bf.chunk.js",
-    "main.js.map": "/wild_gunman/static/js/main.e2af99bf.chunk.js.map",
+    "main.css": "/wild_gunman/static/css/main.40201d2e.chunk.css",
+    "main.js": "/wild_gunman/static/js/main.9d98dd46.chunk.js",
+    "main.js.map": "/wild_gunman/static/js/main.9d98dd46.chunk.js.map",
     "runtime-main.js": "/wild_gunman/static/js/runtime-main.f54445ec.js",
     "runtime-main.js.map": "/wild_gunman/static/js/runtime-main.f54445ec.js.map",
-    "static/js/2.3ed5b4a1.chunk.js": "/wild_gunman/static/js/2.3ed5b4a1.chunk.js",
-    "static/js/2.3ed5b4a1.chunk.js.map": "/wild_gunman/static/js/2.3ed5b4a1.chunk.js.map",
+    "static/js/2.6ed9b481.chunk.js": "/wild_gunman/static/js/2.6ed9b481.chunk.js",
+    "static/js/2.6ed9b481.chunk.js.map": "/wild_gunman/static/js/2.6ed9b481.chunk.js.map",
     "index.html": "/wild_gunman/index.html",
-    "precache-manifest.cb27c19dffff054f04ecc2a9b0d56976.js": "/wild_gunman/precache-manifest.cb27c19dffff054f04ecc2a9b0d56976.js",
+    "precache-manifest.b3916d1d450c2fefb3744795300839ba.js": "/wild_gunman/precache-manifest.b3916d1d450c2fefb3744795300839ba.js",
     "service-worker.js": "/wild_gunman/service-worker.js",
-    "static/css/main.fddce15f.chunk.css.map": "/wild_gunman/static/css/main.fddce15f.chunk.css.map",
-    "static/js/2.3ed5b4a1.chunk.js.LICENSE.txt": "/wild_gunman/static/js/2.3ed5b4a1.chunk.js.LICENSE.txt",
+    "static/css/main.40201d2e.chunk.css.map": "/wild_gunman/static/css/main.40201d2e.chunk.css.map",
+    "static/js/2.6ed9b481.chunk.js.LICENSE.txt": "/wild_gunman/static/js/2.6ed9b481.chunk.js.LICENSE.txt",
     "static/media/GameOver.mp3": "/wild_gunman/static/media/GameOver.1b42057b.mp3",
+    "static/media/GameOver2.mp3": "/wild_gunman/static/media/GameOver2.4b6caa7f.mp3",
     "static/media/Shoot2.mp3": "/wild_gunman/static/media/Shoot2.44427b3e.mp3",
     "static/media/Shoot3.mp3": "/wild_gunman/static/media/Shoot3.73708a65.mp3",
-    "static/media/main.mp3": "/wild_gunman/static/media/main.5f8a0445.mp3",
-    "static/media/App.module.css": "/wild_gunman/static/media/saloon.77bb1075.png"
+    "static/media/YouDead.mp3": "/wild_gunman/static/media/YouDead.105691c1.mp3",
+    "static/media/App.module.css": "/wild_gunman/static/media/saloon.77bb1075.png",
+    "static/media/main.mp3": "/wild_gunman/static/media/main.5f8a0445.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.f54445ec.js",
-    "static/js/2.3ed5b4a1.chunk.js",
-    "static/css/main.fddce15f.chunk.css",
-    "static/js/main.e2af99bf.chunk.js"
+    "static/js/2.6ed9b481.chunk.js",
+    "static/css/main.40201d2e.chunk.css",
+    "static/js/main.9d98dd46.chunk.js"
   ]
 }
